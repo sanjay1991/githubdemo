@@ -7,9 +7,11 @@ public class Test1
 	{
 		int a=10;
 		int b=20;
-		System.out.println(a+b);
-		
-
+		System.out.println(addition(a,b));
+	}
+	public static int addition(int x, int y)
+	{
+		return(x+y);
 	}
 
 }
